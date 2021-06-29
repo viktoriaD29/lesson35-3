@@ -1,4 +1,4 @@
-import { fetchUserData } from './gateways.js';
+import { fetchUserData, fetchRepositories } from './gateways.js';
 import { renderUserData } from './user.js';
 import { renderRepos, cleanReposList } from './repos.js';
 import { showSpinner, hideSpinner } from './spinner.js';
